@@ -1,0 +1,48 @@
+* {
+    user-select: none;
+}
+
+.wl-fb-popup2 {
+    z-index: 1111;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    left: calc(50% - 150px);
+    top: calc(50% - 150px);
+    width: 300px;
+    height: 300px;
+    font-weight: 700;
+    border-radius: 15px;
+    box-shadow: 0 0 3.33px 1.11px rgba(0,0,0,0.888);
+}
+
+.wl-fb-popup2-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 5px 10px;
+    transform: rotate(45deg);
+}
+
+.wl-fb-popup2-close:hover {
+    color: rgb(70, 70, 248);
+}
+
+.showButton {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    border-radius: 50%;
+    box-shadow: 0 0 3.33px 1.11px rgba(0,0,0,0.888);
+}
